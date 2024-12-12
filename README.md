@@ -1,23 +1,98 @@
-<h1 align="center">Hi 👋, I'm Pasit</h1>
-<h3 align="center">A FullStack Developer From Thailand</h3>
+<!-- 
+# 👋 Hello I'm narze
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=pasittum&label=Profile%20views&color=0e75b6&style=flat" alt="pasittum" /> </p>
+![Manoonchai](https://img.shields.io/badge/Manoonchai-ff8552?logo=data:image/png;base64,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)
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=pasittum" alt="pasittum" /></a> </p>
+<details><summary>Hacktoberfest 2023</summary>
 
-<p align="left"> <a href="https://twitter.com/" target="blank"><img src="https://img.shields.io/twitter/follow/?logo=twitter&style=for-the-badge" alt="" /></a> </p>
+## Hacktoberfest projects (43 PRs merged!)
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://dev.to/daywakler" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/devto.svg" alt="daywakler" height="30" width="40" /></a>
-<a href="https://linkedin.com/in/https://www.linkedin.com/in/pasit-boonpanase/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/pasit-boonpanase/" height="30" width="40" /></a>
-</p>
+[What is Hacktoberfest?](https://hacktoberfest.digitalocean.com)
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://angular.io" target="_blank" rel="noreferrer"> <img src="https://angular.io/assets/images/logos/angular/angular.svg" alt="angular" width="40" height="40"/> </a> <a href="https://angular.io" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/angularjs/angularjs-original-wordmark.svg" alt="angularjs" width="40" height="40"/> </a> <a href="https://www.arduino.cc/" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/arduino-1.svg" alt="arduino" width="40" height="40"/> </a> <a href="https://aws.amazon.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="aws" width="40" height="40"/> </a> <a href="https://azure.microsoft.com/en-in/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/microsoft_azure/microsoft_azure-icon.svg" alt="azure" width="40" height="40"/> </a> <a href="https://www.chartjs.org" target="_blank" rel="noreferrer"> <img src="https://www.chartjs.org/media/logo-title.svg" alt="chartjs" width="40" height="40"/> </a> <a href="https://www.w3schools.com/cs/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" alt="csharp" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://www.cypress.io" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/6e46ec1fc23b60c8fd0d2f2ff46db82e16dbd75f/icons/cypress.svg" alt="cypress" width="40" height="40"/> </a> <a href="https://www.djangoproject.com/" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/django.svg" alt="django" width="40" height="40"/> </a> <a href="https://www.docker.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40"/> </a> <a href="https://dotnet.microsoft.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/dot-net/dot-net-original-wordmark.svg" alt="dotnet" width="40" height="40"/> </a> <a href="https://www.electronjs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/electron/electron-original.svg" alt="electron" width="40" height="40"/> </a> <a href="https://expressjs.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="express" width="40" height="40"/> </a> <a href="https://www.figma.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40" height="40"/> </a> <a href="https://firebase.google.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="firebase" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://grafana.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/grafana/grafana-icon.svg" alt="grafana" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://www.adobe.com/in/products/illustrator.html" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/adobe_illustrator/adobe_illustrator-icon.svg" alt="illustrator" width="40" height="40"/> </a> <a href="https://ionicframework.com" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/d/d1/Ionic_Logo.svg" alt="ionic" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://kotlinlang.org" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/kotlinlang/kotlinlang-icon.svg" alt="kotlin" width="40" height="40"/> </a> <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a> <a href="https://mariadb.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/mariadb/mariadb-icon.svg" alt="mariadb" width="40" height="40"/> </a> <a href="https://materializecss.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/prplx/svg-logos/5585531d45d294869c4eaab4d7cf2e9c167710a9/svg/materialize.svg" alt="materialize" width="40" height="40"/> </a> <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/> </a> <a href="https://www.microsoft.com/en-us/sql-server" target="_blank" rel="noreferrer"> <img src="https://www.svgrepo.com/show/303229/microsoft-sql-server-logo.svg" alt="mssql" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://nextjs.org/" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/nextjs-2.svg" alt="nextjs" width="40" height="40"/> </a> <a href="https://www.nginx.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nginx/nginx-original.svg" alt="nginx" width="40" height="40"/> </a> <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a> <a href="https://nuxtjs.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/nuxtjs/nuxtjs-icon.svg" alt="nuxtjs" width="40" height="40"/> </a> <a href="https://www.photoshop.com/en" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/photoshop/photoshop-line.svg" alt="photoshop" width="40" height="40"/> </a> <a href="https://www.postgresql.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40"/> </a> <a href="https://postman.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="postman" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://sass-lang.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg" alt="sass" width="40" height="40"/> </a> <a href="https://www.selenium.dev" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/detain/svg-logos/780f25886640cef088af994181646db2f6b1a3f8/svg/selenium-logo.svg" alt="selenium" width="40" height="40"/> </a> <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="tailwind" width="40" height="40"/> </a> <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width="40" height="40"/> </a> <a href="https://vuejs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vuejs/vuejs-original-wordmark.svg" alt="vuejs" width="40" height="40"/> </a> <a href="https://dotnet.microsoft.com/apps/xamarin" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/detain/svg-logos/780f25886640cef088af994181646db2f6b1a3f8/svg/xamarin.svg" alt="xamarin" width="40" height="40"/> </a> </p>
+- [9speech](https://github.com/narze/9speech)
+- [Append_on_merge](https://github.com/narze/append_on_merge)
+- [Awesome-blockchain-technologies](https://github.com/narze/awesome-blockchain-technologies)
+- [คำคมเฉียบ ๆ](https://github.com/narze/awesome-cheab-quotes) ([1 Issues](https://github.com/narze/awesome-cheab-quotes/issues))
+- [Awesome-maas](https://github.com/narze/awesome-maas)
+- [Awesome-rickroll-videos](https://github.com/narze/awesome-rickroll-videos)
+- [วาทะสลิ่มสุดเจ๋ง](https://github.com/narze/awesome-salim-quotes)
+- [Awesome-websites-as-answers](https://github.com/narze/awesome-websites-as-answers)
+- [Baht.js](https://github.com/narze/baht.js) ([1 Issues](https://github.com/narze/baht.js/issues))
+- [Coffee to Code](https://github.com/narze/coffee-to-code)
+- [ได้ไหม?](https://github.com/narze/DaiMai)
+- [Deploydeemai.today](https://github.com/narze/deploydeemai.today) ([2 PRs](https://github.com/narze/deploydeemai.today/pulls))
+- [คำถามโง่ ๆ](https://github.com/narze/dumb-questions-th)
+- [Emkay](https://github.com/narze/emkay)
+- [Goragit](https://github.com/narze/goragit)
+- [Hacktober](https://github.com/narze/hacktober) ([1 Issues](https://github.com/narze/hacktober/issues))
+- [Hacktoberfest EZ](https://github.com/narze/hacktoberfest_ez) ([2 Issues](https://github.com/narze/hacktoberfest_ez/issues))
+- [Merge_on_merge](https://github.com/narze/merge_on_merge)
+- [นั่นมัน...!](https://github.com/narze/nunmun) ([1 Issues](https://github.com/narze/nunmun/issues))
+- [Ophtusify](https://github.com/narze/ophtusify)
+- [Pokemon-sleep-kitchen](https://github.com/narze/pokemon-sleep-kitchen)
+- [Profile Updater](https://github.com/narze/profile-updater)
+- [React-useless](https://github.com/narze/react-useless) ([1 Issues](https://github.com/narze/react-useless/issues))
+- [Resound](https://github.com/narze/resound)
+- [Resume](https://github.com/narze/resume) ([1 Issues](https://github.com/narze/resume/issues))
+- [Skoy.js](https://github.com/narze/skoy.js) ([3 PRs](https://github.com/narze/skoy.js/pulls))
+- [Stelve](https://github.com/narze/stelve)
+- [The-web-of-answers](https://github.com/narze/the-web-of-answers)
+- [Thwordle](https://github.com/narze/thwordle) ([1 Issues](https://github.com/narze/thwordle/issues))
+- [ต่อเพลง](https://github.com/narze/torpleng) ([1 Issues](https://github.com/narze/torpleng/issues))
+- [เว็บแปลงภาษาสก๊อย](https://github.com/narze/toSkoy) ([1 Issues](https://github.com/narze/toSkoy/issues))
+- [Tts-api](https://github.com/narze/tts-api) ([1 Issues](https://github.com/narze/tts-api/issues))
+- [Working3times](https://github.com/narze/working3times)
+- [Carpalx-th](https://github.com/Manoonchai/carpalx-th)
+- [Kiimo](https://github.com/Manoonchai/kiimo) ([1 PRs](https://github.com/Manoonchai/kiimo/pulls))
+- [Layout-analyzer](https://github.com/Manoonchai/layout-analyzer)
+- [Learn](https://github.com/Manoonchai/learn) ([1 Issues](https://github.com/Manoonchai/learn/issues))
+- [Manoonchai](https://github.com/Manoonchai/Manoonchai) ([4 Issues](https://github.com/Manoonchai/Manoonchai/issues))
+- [Manoonchai.com](https://github.com/Manoonchai/manoonchai.com) ([1 PRs](https://github.com/Manoonchai/manoonchai.com/pulls) / [1 Issues](https://github.com/Manoonchai/manoonchai.com/issues))
+- [Manoontype](https://github.com/Manoonchai/manoontype)
 
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=pasittum&show_icons=true&locale=en&layout=compact" alt="pasittum" /></p>
+</details>
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=pasittum&show_icons=true&locale=en" alt="pasittum" /></p>
+<details><summary><strong>Active projects</strong></summary>
 
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=pasittum&" alt="pasittum" /></p>
+- [.live](https://github.com/narze/.live)
+- [10k-planner](https://github.com/narze/10k-planner)
+- [วาทะสลิ่มสุดเจ๋ง](https://github.com/narze/awesome-salim-quotes)
+- [Deploydeemai.today](https://github.com/narze/deploydeemai.today)
+- [Garden](https://github.com/narze/garden)
+- [Gash](https://github.com/narze/gash)
+- [Hacktober](https://github.com/narze/hacktober)
+- [Home-cluster](https://github.com/narze/home-cluster)
+- [Mermage](https://github.com/narze/mermage)
+- [Ophtusify](https://github.com/narze/ophtusify)
+- [Profile Updater](https://github.com/narze/profile-updater)
+- [React-useless](https://github.com/narze/react-useless)
+- [Resound](https://github.com/narze/resound)
+- [Resume](https://github.com/narze/resume)
+- [Stelve](https://github.com/narze/stelve)
+- [Streamie](https://github.com/narze/streamie)
+- [Streamlarb-v1](https://github.com/narze/streamlarb-v1)
+- [That-paper-game](https://github.com/narze/that-paper-game)
+- [THIS REPO HAS 3077 STARS (Banned)](https://github.com/narze/THIS_REPO_HAS_3077_STARS)
+- [Thwordle](https://github.com/narze/thwordle)
+- [Manoonchai](https://github.com/Manoonchai/Manoonchai)
+
+</details>
+
+<!--%%% PROFILE UPDATER (narze/profile-updater) : END %%%-->
+
+<!-- ## Support Me
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/narze)
+
+<details><summary><strong>Stats</strong></summary>
+-->
+<div align="center">
+
+  [![Wakatime Badge](https://wakatime.com/badge/user/ee28b529-c920-4c92-a7c7-6a26fdff3ca5.svg)](https://wakatime.com/@ee28b529-c920-4c92-a7c7-6a26fdff3ca5)
+  
+  [![Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=narze&layout=compact&langs_count=10&hide_border=true&custom_title=Languages&bg_color=00000000&hide=PHP)](https://github.com/narze)
+  
+  [![Wakatime Stats](https://github-readme-stats.vercel.app/api/wakatime/?username=narze&layout=compact&langs_count=16&hide_border=true&custom_title=Wakatime&bg_color=00000000&hide=PHP)](https://wakatime.com/@narze)
+  
+  <img src="https://count.getloli.com/get/@:narze?theme=3d-num">
+</div>
