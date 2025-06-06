@@ -15,7 +15,7 @@
 
 | Backend | Frontend | Data & AI | DevOps & Cloud | Tools |
 |---------|----------|-----------|----------------|-------|
-| Python, FastAPI, .NET 6 | React, Vue 3, Tailwind CSS | Pandas, Scikit-learn, LangChain, OpenAI API | Docker, GitHub Actions, AWS, GCP | Git, VS Code, Postman |
+| Python ,FastAPI, .NET | Angular, Vue 3, Tailwind CSS | Pandas, MSSql , MongoDb, OpenAI  | Docker, GitHub Actions, AWS , Azure , RabbitMQ , Redis , AirFlow , n8n , Zabbix   | Git, VS Code, Postman , JMeter , IIS  |
 
 ---
 
